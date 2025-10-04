@@ -1,0 +1,37 @@
+activity,category,tags,mood,time_minutes
+Take a 10-minute walk in nature,Wellness,"nature, walking, outdoor, peaceful, fresh air",calm,10
+Practice deep breathing exercises,Wellness,"relaxation, stress relief, mindfulness, breathing, calm",relaxed,15
+Listen to calming music or nature sounds,Wellness,"music, audio, relaxation, peaceful, soothing",peaceful,30
+Do some light stretching or yoga,Wellness,"flexibility, body, relaxation, gentle, movement",calm,20
+Take a warm bath with essential oils,Wellness,"relaxation, self-care, warm, aromatherapy, peaceful",relaxed,45
+Write in a gratitude journal,Wellness,"reflection, gratitude, writing, positive, mindfulness",grateful,15
+Go for a jog or run,Fitness,"cardio, running, outdoor, energetic, endurance",energetic,30
+Hit the gym for a workout,Fitness,"strength, fitness, equipment, indoor, muscle building",motivated,60
+Play a sport like tennis or basketball,Fitness,"competitive, team, skill, athletic, fun",competitive,90
+Go hiking or rock climbing,Fitness,"adventure, nature, outdoor, challenging, exploration",adventurous,120
+Dance to your favorite music,Fitness,"movement, music, fun, energetic, expression",happy,30
+Do a high-intensity interval training (HIIT),Fitness,"intense, cardio, challenging, fitness, quick",intense,20
+Paint or draw something creative,Creative,"artistic, visual, creative, expression, colors",creative,60
+Write poetry or short stories,Creative,"writing, literary, creative, imagination, words",imaginative,45
+Learn to play a musical instrument,Creative,"music, learning, skill, practice, artistic",artistic,60
+Try cooking a new recipe,Creative,"food, cooking, learning, tasty, kitchen",curious,90
+Work on a craft project,Creative,"hands-on, making, creative, materials, project",creative,120
+Take photographs of interesting subjects,Creative,"visual, artistic, outdoor, capturing, creative",artistic,45
+Call a friend or family member,Social,"communication, social, connection, conversation, relationships",social,30
+Join a local club or group activity,Social,"community, social, shared interests, meeting people, group",connected,60
+Volunteer for a community cause,Social,"helping, community, giving back, meaningful, social",helpful,120
+Attend a social event or party,Social,"celebration, social, fun, meeting people, entertainment",social,180
+Play board games with friends,Social,"games, strategy, social, fun, indoor",playful,90
+Organize a potluck dinner,Social,"food, social, sharing, community, cooking",social,180
+Read a good book,Learning,"reading, literature, quiet, learning, imagination",curious,45
+Watch a documentary or educational video,Learning,"educational, video, learning, informative, screen",curious,60
+Take an online course,Learning,"education, skill building, online, learning, growth",curious,90
+Solve puzzles or brain teasers,Learning,"mental, challenge, problem solving, brain, logic",focused,30
+Practice meditation,Learning,"mindfulness, peace, spiritual, calm, mental health",peaceful,20
+Learn a new language,Learning,"language, communication, learning, culture, skill",curious,60
+Listen to a podcast,Learning,"audio, learning, entertainment, information, listening",curious,45
+Organize and declutter your space,Productive,"cleaning, organizing, productivity, decluttering, home",organized,60
+Plan your next vacation,Productive,"planning, travel, dreams, research, future",excited,120
+Update your resume or LinkedIn profile,Productive,"career, professional, networking, work, development",motivated,30
+Practice a hobby you enjoy,Productive,"personal interest, skill, enjoyment, passion, practice",satisfied,60
+Tend to indoor or outdoor plants,Productive,"gardening, nature, caring, growth, plants",nurturing,30
