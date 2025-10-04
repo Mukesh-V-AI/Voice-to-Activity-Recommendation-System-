@@ -2,14 +2,14 @@
 
 A production-ready AI/ML system that converts speech to personalized activity recommendations using advanced NLP and machine learning techniques.
 
-## ✨ Features
+## Features
 
-- **🎙️ Speech-to-Text**: Convert voice input using OpenAI Whisper or SpeechRecognition
-- **🧠 Intent Extraction**: Extract mood, time preferences using HuggingFace Transformers
-- **🎯 Smart Recommendations**: Content-based filtering with personalized suggestions
-- **🚀 REST API**: FastAPI backend with comprehensive endpoints
-- **💻 Interactive Frontend**: Beautiful Streamlit web application
-- **🐳 Production Ready**: Docker containerization for easy deployment
+- ** Speech-to-Text**: Convert voice input using OpenAI Whisper or SpeechRecognition
+- ** Intent Extraction**: Extract mood, time preferences using HuggingFace Transformers
+- ** Smart Recommendations**: Content-based filtering with personalized suggestions
+- **REST API**: FastAPI backend with comprehensive endpoints
+- **Interactive Frontend**: Beautiful Streamlit web application
+- ** Production Ready**: Docker containerization for easy deployment
 
 ## 🏗️ Architecture
 
@@ -153,7 +153,7 @@ voice-activity-recommender/
    - **Browse Activities**: See all available activities with filters
    - **About Tab**: Learn more about the system
 
-## 💡 Example Inputs to Try
+## Example Inputs to Try
 
 ### Text Examples:
 - "I'm feeling energetic and want something physical for about an hour"
@@ -167,60 +167,10 @@ voice-activity-recommender/
 - Speak naturally and clearly
 - Include your mood, time preference, and activity type
 
-## 🔧 API Endpoints (For developers)
 
-- `GET /` - API information
-- `GET /health` - Health check
-- `POST /recommend/text` - Text recommendations
-- `POST /recommend/audio` - Audio recommendations  
-- `GET /stats` - System statistics
-- `GET /activities` - Browse activities
 
-### Example API Usage:
 
-```bash
-# Text recommendation
-curl -X POST "http://localhost:8000/recommend/text" \
-     -H "Content-Type: application/json" \
-     -d '{"text": "I feel stressed and need something relaxing"}'
 
-# Audio recommendation
-curl -X POST "http://localhost:8000/recommend/audio" \
-     -F "audio_file=@your_audio.wav"
-```
-
-## 🛠️ Troubleshooting
-
-### Common Issues:
-
-1. **"ModuleNotFoundError" when starting:**
-   ```bash
-   # Make sure you're in the right directory and virtual environment is activated
-   pip install -r requirements.txt
-   ```
-
-2. **"Connection refused" error in frontend:**
-   - Make sure the backend is running (`python app/main.py`)
-   - Check that it's running on port 8000
-
-3. **Audio not working:**
-   - Ensure audio file is clear and supported format (WAV, MP3, OGG)
-   - Check file size (keep under 10MB)
-
-4. **Slow performance:**
-   - First startup is slow (downloading ML models)
-   - Subsequent requests are much faster
-
-5. **"Permission denied" errors:**
-   - Make sure you have write permissions in the project folder
-   - Try running as administrator if needed
-
-### Getting Help:
-
-1. **Check the logs** in the terminal where you started the backend
-2. **Restart both backend and frontend** if things stop working
-3. **Clear browser cache** if the frontend looks broken
-4. **Check system requirements** (Python 3.9+, sufficient RAM)
 
 ## 📈 Performance Notes
 
@@ -244,35 +194,19 @@ curl -X POST "http://localhost:8000/recommend/audio" \
 - Scores should be reasonable (0.3-1.0 range)
 - No crashes or errors in normal use
 
-## 🔮 Future Enhancements
 
-- **User Profiles**: Save preferences and history
-- **Mobile App**: Native iOS/Android applications
-- **Voice Recording**: Browser-based recording
-- **More Languages**: Multi-language support
-- **Integration**: Calendar and fitness app connectivity
 
 ## 📄 License
 
 MIT License - Feel free to use and modify!
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI Whisper for speech recognition
 - HuggingFace for NLP models
 - FastAPI for the web framework
 - Streamlit for rapid frontend development
 
----
 
-**🎯 Ready to find your perfect activity? Start the system and let AI help you! 🚀**
 
-## 📞 Support
-
-If you encounter any issues:
-1. Check this README for troubleshooting steps
-2. Look at the terminal output for error messages
-3. Ensure all prerequisites are installed correctly
-4. Try restarting both backend and frontend services
-
-**Happy recommending! 🎉**
+**Happy recommending! **
